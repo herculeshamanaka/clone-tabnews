@@ -1,2 +1,3 @@
 # clone-tabnews
-https://www.tabnews.com.br implementation to https://curso.dev 
+
+https://www.tabnews.com.br implementation to https://curso.dev
