@@ -2,7 +2,7 @@ function Home() {
   const styles = {
     container: {
       display: "flex",
-      justifyCcontent: "center",
+      justifyContent: "center",
       alignItems: "center",
       height: "100vh",
       margin: "0",
@@ -50,7 +50,7 @@ function Home() {
       position: "absolute",
       width: "40px",
       height: "40px",
-      backgroundColor: "#000;",
+      backgroundColor: "#000",
       borderRadius: "50%",
       top: "100px",
       left: "50%",
@@ -69,14 +69,14 @@ function Home() {
   };
 
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>Under Construction</h1>
-        <p className={styles.description}>
+    <div style={styles.container}>
+      <main style={styles.main}>
+        <h1 style={styles.title}>Under Construction</h1>
+        <p style={styles.description}>
           We are working hard to bring you a better experience. Stay tuned!
         </p>
 
-        <div className={styles.devNews}>
+        <div style={styles.devNews}>
           <h2>Dev News</h2>
           <p>
             Stay updated with the latest in development news. Exciting things
@@ -84,11 +84,11 @@ function Home() {
           </p>
         </div>
 
-        <div className={styles.gorilla}>
-          <div className={`${styles.eye} ${styles.left}`}></div>
-          <div className={`${styles.eye} ${styles.right}`}></div>
-          <div className={styles.nose}></div>
-          <div className={styles.mouth}></div>
+        <div style={styles.gorilla}>
+          <div style={{ ...styles.eye, ...styles.left }}></div>
+          <div style={{ ...styles.eye, ...styles.right }}></div>
+          <div style={styles.nose}></div>
+          <div style={styles.mouth}></div>
         </div>
       </main>
     </div>
