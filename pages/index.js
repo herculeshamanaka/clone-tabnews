@@ -44,7 +44,7 @@ function Home() {
           </p>
         </div>
 
-        <Image src="/images/gorilla_samurai.png" alt={alt} width="100%" />
+        <Image src="/images/gorilla_samurai.png" width="100%" />
       </main>
     </div>
   );
