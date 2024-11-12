@@ -31,18 +31,18 @@ function Home() {
   return (
     <div style={styles.container}>
       <main style={styles.main}>
-        <h1 style={styles.title}>Under Construction</h1>
-        <p style={styles.description}>
-          We are working hard to bring you a better experience. Stay tuned!
-        </p>
-
         <div style={styles.devNews}>
-          <h2>Dev News</h2>
+          <h1>Gorilla Dev News</h1>
           <p>
-            Stay updated with the latest in development news. Exciting things
-            are coming!
+            The basic idea is to add relevant content for those who work with
+            information technology.
           </p>
         </div>
+
+        <h2 style={styles.title}>Under Construction</h2>
+        <p style={styles.description}>
+          We are working hard to bring you a better experience.
+        </p>
 
         <Image src="/images/gorilla_samurai.png" width="100%" />
       </main>
