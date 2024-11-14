@@ -26,6 +26,10 @@ function Home() {
     devNews: {
       marginTop: "20px",
     },
+    image: {
+      width: "100%",
+      height: "100%",
+    },
   };
 
   return (
@@ -44,7 +48,13 @@ function Home() {
           We are working hard to bring you a better experience.
         </p>
 
-        <Image src="/images/gorilla_samurai.png" width="100%" />
+        <Image
+          src="/images/gorilla_samurai.png"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={styles.image}
+        />
       </main>
     </div>
   );
