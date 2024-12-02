@@ -54,6 +54,7 @@ function Home() {
           height={0}
           sizes="100vw"
           style={styles.image}
+          alt="Gorilla Dev"
         />
       </main>
     </div>
